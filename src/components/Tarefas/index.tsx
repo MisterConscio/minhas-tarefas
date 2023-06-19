@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { remover, editar } from '../../store/reducers/tarefas'
 
 import * as S from './styles'
-import * as enums from '../../utils/enums/Tarefa'
+//import * as enums from '../../utils/enums/Tarefa'
 
 import TarefaClass from '../../models/Tarefa'
 
