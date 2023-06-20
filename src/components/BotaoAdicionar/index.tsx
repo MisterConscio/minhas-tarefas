@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
+import color from '../../styles/var'
+
 const Circulo = styled(Link)`
   display: flex;
   justify-content: center;
@@ -10,7 +12,7 @@ const Circulo = styled(Link)`
   bottom: 40px;
   width: 64px;
   height: 64px;
-  background-color: #44bd32;
+  background-color: ${color.verde};
   color: white;
   font-size: 40px;
   border-radius: 50%;
